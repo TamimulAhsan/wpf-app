@@ -4,7 +4,7 @@ namespace PersonalExpenseTracker.Services;
 
 public static class ThemeManager
 {
-    /// <summary>Swaps the colour palette (merged dictionary 0) between the light and dark themes.</summary>
+    /// <summary>Replaces merged dictionary 0 with the selected theme; the theme dictionary must stay first.</summary>
     public static void Apply(bool dark)
     {
         var palette = new ResourceDictionary

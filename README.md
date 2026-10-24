@@ -9,6 +9,7 @@ A WPF (C#) desktop app for recording and summarising expenses.
 ## Open
 1. Extract the ZIP file to a folder.
 2. Open `PersonalExpenseTracker.sln` in Visual Studio.
+3. Run the app on Windows with **F5** or `dotnet run`.
 
 ## Build
 - In Visual Studio: **Build > Build Solution** (Ctrl+Shift+B).
