@@ -101,7 +101,7 @@
             <TextBlock Text="New expense" Style="{StaticResource CardTitle}"/>
 
             <TextBlock Text="Description" Style="{StaticResource FieldLabel}" Margin="0,14,0,5"/>
-            <TextBox x:Name="DescriptionTextBox" MaxLength="100" Padding="12,8" helpers:TextBoxHelper.Placeholder="e.g. Groceries"/>
+            <TextBox x:Name="DescriptionTextBox" MaxLength="100" Padding="12,8" helpers:TextBoxHelper.Placeholder="e.g. Groceries, bus ticket"/>
             <TextBlock x:Name="DescriptionErrorTextBlock" Style="{StaticResource ErrorText}"/>
 
             <Grid>
